@@ -3,6 +3,7 @@ import 'package:anikiGlobal/screens/briefDesc.dart';
 import 'package:anikiGlobal/screens/buttons.dart';
 import 'package:anikiGlobal/screens/hotels.dart';
 import 'package:anikiGlobal/screens/jumia.dart';
+import 'package:anikiGlobal/screens/meetingDetails.dart';
 import 'package:anikiGlobal/screens/monthCont.dart';
 import 'package:anikiGlobal/screens/profileScreen.dart';
 import 'package:anikiGlobal/screens/ratingsNreviews.dart';
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: RatingsReviews(),
-      home: BankStuff1(),
+      home: MeetingDetails(),
     );
   }
 }
