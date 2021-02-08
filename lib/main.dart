@@ -7,6 +7,7 @@ import 'package:anikiGlobal/screens/meetingDetails.dart';
 import 'package:anikiGlobal/screens/monthCont.dart';
 import 'package:anikiGlobal/screens/profileScreen.dart';
 import 'package:anikiGlobal/screens/ratingsNreviews.dart';
+import 'package:anikiGlobal/screens/shimmerSmtin.dart';
 import 'package:anikiGlobal/screens/tapCont.dart';
 import 'package:anikiGlobal/screens/visualSearch.dart';
 import 'package:anikiGlobal/screens/visualSearch.dart';
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: RatingsReviews(),
-      home: MeetingDetails(),
+      home: ShimmerSmtin(),
     );
   }
 }
